@@ -5,24 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="skrypt.js"></script>
     <title>Sprawdzian JS</title>
 </head>
 <body>
     <div id="container">
         <div class="top">
             <nav>
-                <div class="button">SLIDER</div>
-                <div class="button">ANIMACJE</div>
-                <div class="button">OBLICZENIA</div>
+                <div class="button" onclick="slider()">SLIDER</div>
+                <div id="animacja" >ANIMACJE</div>
+                <div class="button" onclick="obliczenia()">OBLICZENIA</div>
                 <div class="button">OBIEKT</div>
-                <div class="button">ZEGAR</div>
+                <div class="button" onclick="stoper()">ZEGAR</div>
             </nav>
         </div>
         <div class="main">
-            <div id="left"></div>
-            <div id="right"></div>
+            <div id="left">
+
+                <form action="">
+                    <fieldset>
+                        <legend>Formularz</legend>
+                            Wartość a: <input type="number" step="0,01" name="wartos_a"><br>
+                            Wartość b: <input type="number" step="0,01" name="wartos_b"><br>
+                            Wartość c: <input type="number" step="0,01" name="wartos_c"><br>
+                    </fieldset>
+                </form>
+
+            </div>
+            <div id="right">
+                <form action="">
+                    <fieldset>
+                        <legend></legend>
+                                            <div id="pusty"></div>
+                    </fieldset>
+
+                </form>
+            </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">&copy Kacper Wilczek 2 CTG</div>
     </div>
 </body>
 </html>

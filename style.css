@@ -39,17 +39,37 @@ nav{
     height: 900px;
     border: solid white 1px;
     display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 #right{
     width: 660px;
     height: 900px;
     border: solid white 1px;
     display: inline-block;
+    color: white;
 }
 .footer{
     padding: 0;
     margin: 0;
     background-color: black;
+    color: orange;
     width: 1000px;
     height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+#animacja{
+    margin-left: auto;
+    margin-right: auto;
+    width: 195px;
+    height: 35px;
+    background-color: black;
+    color: orange;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
 }
