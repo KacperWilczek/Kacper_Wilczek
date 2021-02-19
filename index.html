@@ -27,9 +27,10 @@
                 <form action="">
                     <fieldset>
                         <legend>Formularz</legend>
-                            Wartość a: <input type="number" step="0,01" name="wartos_a"><br>
-                            Wartość b: <input type="number" step="0,01" name="wartos_b"><br>
-                            Wartość c: <input type="number" step="0,01" name="wartos_c"><br>
+                            Wartość a: <input type="number" step="0,01" id="wartosc_a" required><br>
+                            Wartość b: <input type="number" step="0,01" id="wartosc_b" required><br>
+                            Wartość c: <input type="number" step="0,01" id="wartosc_c" required><br>
+                            <input type="button" value="OBLICZ" onclick="obliczenia()">
                     </fieldset>
                 </form>
 
@@ -37,8 +38,7 @@
             <div id="right">
                 <form action="">
                     <fieldset>
-                        <legend></legend>
-                                            <div id="pusty"></div>
+                        <div id="pusty"></div>
                     </fieldset>
 
                 </form>
